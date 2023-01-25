@@ -1,0 +1,76 @@
+.navbar {
+  margin: -20px;
+}
+
+#logo {
+  width: 6%;
+  height: 6%;
+ float: left;
+ margin-bottom: 5px;
+ margin-left: 1%;
+ border-radius: 5em;
+ border-style: solid;
+ border-width: 0.4em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1em;
+   overflow: auto;
+    background-color: #333;
+    margin-top: 0;
+    width: 100%;
+  }
+  .main-menu{
+display: grid;
+text-align: center;
+position: relative;
+justify-content: right;
+margin-top: 10em;
+z-index: 1;
+margin-right: 10em;
+  }
+  #turbo{
+    margin-top: 4em;
+    border-radius: 10em;
+    border-width: 4px;
+    border-color: black;
+  }
+  
+#osu {
+position:absolute;
+height: 12em;
+width: 12em;
+margin-top: -15em;
+z-index: 3;
+margin-left: 40em;
+}
+#osu-link{
+  margin-left: 44em;
+}
+
+a {
+  position: relative;
+  margin-top: 2em;
+}
+#bb-image {
+  position: absolute;
+  height: 14em;
+  width: 14em;
+  margin-top: -18em;
+  z-index: 5;
+  margin-left: 12em;
+  float: left;
+  border-radius: 7em;
+  border-style: solid;
+  border-width: 4px;
+} 
+
+#bb-link{
+position:absolute;
+margin-left: 15em;
+margin-top: -17px;
+
+}
+ 
