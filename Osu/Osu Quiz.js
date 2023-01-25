@@ -110,6 +110,6 @@ window.onload = function () {
   };
 
   function secondFunction () {
-    window.location.href = "../Turbo/Turbo Quiz.html";
+    window.location.href = "../homepage/homepage.html";
 
 }
