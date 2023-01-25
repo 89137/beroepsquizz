@@ -14,11 +14,17 @@ body, html {
     padding-top: 0px;
   }
 
+  #quiz img {
+    width: 75px;
+    float: left;
+    margin-right: -70px;
+  }
+
   #quiz {
-    background-image: url("osu.png");
-    background-size: 75px;
+ 
     background-repeat: no-repeat;
     background-color: #5e3446;
+    background: linear-gradient(0deg, rgba(195,51,34,1) 0%, rgba(203,15,151,1) 100%);
 
     padding-bottom: 60px;
     width: 100%;
@@ -26,6 +32,7 @@ body, html {
     color: #fff;
     text-align: center;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    
   }
    
   #quiz > h1 {
