@@ -77,7 +77,7 @@ window.onload = function () {
           loadQuestion(current);
           loadAnswers(current);
         } else {
-          questionArea.innerHTML = 'Done';
+          questionArea.innerHTML = 'Done <br> <button onclick="secondFunction()">Click to go back to home</button>' ;
           answerArea.innerHTML = '';
         }
                                 
@@ -108,3 +108,8 @@ window.onload = function () {
     loadAnswers(current);
     
   };
+
+  function secondFunction () {
+    window.location.href = "../homepage/homepage.html";
+
+}
