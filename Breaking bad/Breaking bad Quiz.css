@@ -4,9 +4,9 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-image: url('briek2.webp')
+    background-image: url('briek2.webp');
+    background-repeat: no-repeat;
   }
- 
   body {
     overflow-y: hidden;
   }
@@ -199,4 +199,8 @@ button:hover{
   text-align: left;
   left: 0%;
   position: absolute;
+  border-color: white;
+  border-style: solid;
+  border-radius: 6em;
 }
+  

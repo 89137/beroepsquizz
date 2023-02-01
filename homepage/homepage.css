@@ -4,20 +4,6 @@ body{
   max-width: 100%;
   overflow-x: hidden;
 }
-/*place holder voor de navbar css
-
-
-
-
-
-
-
-
-
-
-
-
-*/
 
 
 
@@ -35,6 +21,8 @@ body{
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
+  position: relative;
+  top: 70px;
   }
   
   .grid-item {
@@ -77,3 +65,96 @@ body{
    text-align: center;
 
  }
+
+ #header {
+  font-family: 'Permanent Marker';font-size: 22px;
+  position: fixed;
+  left: 50%;
+  top: 3%;
+  transform: translate(-50%, -3%);
+  background: rgb(33,31,32);
+  background: linear-gradient(170deg, rgba(33,31,32,1) 0%, rgba(70,60,24,0.303046218487395) 99%);
+  color: white;
+  text-align: center;
+  margin-left: 0.3;
+  margin-right: 0.8;
+  margin-top: 10;
+  border-radius: 30px;
+  z-index: 60;
+  width: 96%;
+  height: 15%;
+  }
+  
+  #header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  }
+  
+  #header nav li {
+  display: inline-block;
+  position: relative;
+  color: cyan;
+  text-align: center;
+  }
+  
+  #header nav a {
+  display: block;
+  padding: 3px 15px;
+  text-decoration: none;
+  }
+  
+  #header nav ul ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  }
+  
+  #header nav li:hover > ul {
+  display: block;
+  }
+  
+  #header h1 {
+  line-height: 6vh;
+  float: left;
+  position: relative;
+  left: 12%;
+  }
+  
+  .link-navbar {
+  position: relative;
+  bottom: 160%;
+  }
+  
+  ul {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      box-sizing: border-box;
+      padding: 20px;
+  
+      z-index: 99;
+    }
+    li {
+        list-style: none;
+        margin-right: 20px;
+        font-size: 25px;
+        font-weight: bold;
+        z-index: 99;
+    }
+        a {
+          text-decoration: none;
+          color: white
+          ;
+        }
+
+.cover img {
+width: 15vh;
+text-align: left;
+left: 0%;
+position: absolute;
+border-color: white;
+border-style: solid;
+border-radius: 6em;
+}
