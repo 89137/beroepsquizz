@@ -45,24 +45,31 @@ ul {
   grid-template-columns: auto auto auto;
   padding: 10px;
   }
-<<<<<<< HEAD
-  .grid-item{
-    
- 
-
-=======
   
   .grid-item {
     padding-top: 75px;
     font-size: 30px;
     text-align: center;
->>>>>>> b9dbcfab71d9e18e88ad3619b03d59733346e544
   }
- #button{
+ #button1, #button3, #button2, #button3{
   border-radius: 5em;
-  border-color: black;
   background-color: black;
   color: white;
-  border-style: solid;
   text-decoration: none;
+  padding: 10px;
+ }
+ #button1:hover{
+ 
+  color: blue;
+    
+ }
+
+ #button2:hover{
+ 
+  color:  rgba(253,29,240,1);
+    
+ }
+
+ #button3:hover{
+  color: rgba(88,252,69,1);
  }
