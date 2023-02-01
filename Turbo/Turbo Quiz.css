@@ -88,3 +88,19 @@ body, html {
   .false {
     background-color: #DC4437;
   }
+
+  button {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 8px;
+    background: none;
+}
+
+button:hover{
+    font-size: 30px;
+    transition: .1s;
+
+  }
