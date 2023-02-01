@@ -1,17 +1,21 @@
 body{
-  background: rgb(65,58,180);
-background: linear-gradient(90deg, rgba(65,58,180,1) 13%, rgba(253,29,186,1) 51%, rgba(64,125,8,1) 91%);
+  background: rgb(78,69,252);
+  background: linear-gradient(90deg, rgba(78,69,252,1) 0%, rgba(253,29,240,1) 50%, rgba(88,252,69,1) 82%);
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .navbar {
   margin: -20px;
+  border-bottom: solid black 5px;
 }
 
 #logo {
   width: 6%;
   height: 6%;
  float: left;
- margin-bottom: 5px;
+ margin-top: 5px;
+
  margin-left: 1%;
  border-radius: 5em;
  border-style: solid;
