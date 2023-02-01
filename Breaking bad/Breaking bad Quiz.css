@@ -10,6 +10,12 @@ body, html {
   body {
     overflow-y: hidden;
   }
+  #logo { 
+   margin-left: 1%;
+   border-radius: 5em;
+   border-style: solid;
+   border-width: 0.1em;
+  }
 
 
   .wrapper {
