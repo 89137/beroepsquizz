@@ -37,15 +37,15 @@ ul {
     
   }
   .grid-container {
-    display: flex;
-    margin-top: 18em;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
   }
-  .grid-holder{
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: -2em;
-
+  
+  .grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
   }
  #button{
   border-radius: 2em;
