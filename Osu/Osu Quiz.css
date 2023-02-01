@@ -19,7 +19,8 @@ body, html {
   #quiz img {
     width: 75px;
     float: left;
-    margin-right: -70px;
+    margin-right: -80px;
+    margin-left: 10px;
   }
 
   #quiz {
