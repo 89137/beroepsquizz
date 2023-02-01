@@ -4,33 +4,24 @@ body{
   max-width: 100%;
   overflow-x: hidden;
 }
+/*place holder voor de navbar css
 
-.navbar {
-  margin: -20px;
-  border-bottom: solid black 5px;
-}
 
-#logo {
-  width: 6%;
-  height: 6%;
- float: left;
- margin-top: 5px;
 
- margin-left: 1%;
- border-radius: 5em;
- border-style: solid;
- border-width: 0.4em;
-}
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 1em;
-   overflow: auto;
-    background-color: #333;
-    margin-top: 0;
-    width: 100%;
-  }
+
+
+
+
+
+
+
+
+*/
+
+
+
+
 
   
   #image {
@@ -72,4 +63,17 @@ ul {
 
  #button3:hover{
   color: rgba(88,252,69,1);
+ }
+
+ 
+ footer {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+    
+   background: grey;
+   border-top: black solid 2px;
+   text-align: center;
+
  }
