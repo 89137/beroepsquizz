@@ -6,7 +6,10 @@ body, html {
     font-family: 'Roboto', sans-serif;
     background-image: url('briek2.webp');
     background-repeat: no-repeat;
+    background-size:cover ;
+    
   }
+ 
   body {
     overflow-y: hidden;
   }
@@ -209,4 +212,3 @@ button:hover{
   border-style: solid;
   border-radius: 6em;
 }
-  
