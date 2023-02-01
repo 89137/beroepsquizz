@@ -4,8 +4,15 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to top, rgba(70, 70, 255, 1), rgb(90, 45, 163));
   }
-
+  
+  #quiz img {
+    width: 75px;
+    float: left;
+    margin-right: -80px;
+    margin-left: 10px;
+  }
 
   .wrapper {
     width: 430px;
@@ -18,7 +25,7 @@ body, html {
     background-image: url("osu.png");
     background-size: 75px;
     background-repeat: no-repeat;
-    background-color: #5e3446;
+    background-color:  rgb(28, 89, 202);
 
     padding-bottom: 60px;
     width: 100%;
