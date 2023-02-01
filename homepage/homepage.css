@@ -30,8 +30,8 @@ ul {
 
   
   #image {
-    width: 14em;
-    height:12em;
+    width: 10em;
+    height: 10em;
     border-radius: 2em;
     border-color: black;
     
@@ -43,14 +43,15 @@ ul {
   }
   
   .grid-item {
-    padding: 20px;
+    padding-top: 75px;
     font-size: 30px;
     text-align: center;
   }
  #button{
-  border-radius: 2em;
+  border-radius: 5em;
   border-color: black;
   background-color: black;
   color: white;
   border-style: solid;
+  text-decoration: none;
  }
